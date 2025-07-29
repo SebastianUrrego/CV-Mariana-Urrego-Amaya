@@ -473,6 +473,93 @@
     </script>
     </section>
 
+    <section class="general-section">
+    <h2 class="general-title">General</h2>
+    <h3 class="general-subtitle">Colección No$talgia</h3>
+    <p class="general-text">
+        No$talgia es una colección inspirada en la moda retro, transportándonos a la década de los 90’s, 
+        sus hormas únicas y detalles atemporales que marcan la diferencia destacan y se vuelven una pieza 
+        icónica en cualquier look aportando un aire vintage.
+    </p>
+    </section>
+
+    <section class="figurines-section">
+    <h2 class="carousel-title">Ilustraciones</h2>
+
+    <div class="carousel-wrapper">
+        <button class="arrow left" onclick="scrollCarouselIlustraciones(-1)">&#10094;</button>
+
+        <div class="carousel-container" id="carousel-ilustraciones">
+        <div class="carousel-track">
+            <img src="PORTAFOLIO/6. GNrL/1.ilusteaciones/IMG_8681.PNG" alt="Ilustración 1">
+            <img src="PORTAFOLIO/6. GNrL/1.ilusteaciones/IMG_8689.PNG" alt="Ilustración 1">
+            <img src="PORTAFOLIO/6. GNrL/1.ilusteaciones/IMG_8691.PNG" alt="Ilustración 1">
+            <img src="PORTAFOLIO/6. GNrL/1.ilusteaciones/IMG_8693.PNG" alt="Ilustración 1">
+            <img src="PORTAFOLIO/6. GNrL/1.ilusteaciones/IMG_8694.PNG" alt="Ilustración 1">
+            <img src="PORTAFOLIO/6. GNrL/1.ilusteaciones/IMG_8695.PNG" alt="Ilustración 1">
+            <img src="PORTAFOLIO/6. GNrL/1.ilusteaciones/IMG_8696.PNG" alt="Ilustración 1">
+            <img src="PORTAFOLIO/6. GNrL/1.ilusteaciones/IMG_8697.PNG" alt="Ilustración 1">
+            <img src="PORTAFOLIO/6. GNrL/1.ilusteaciones/IMG_8698.PNG" alt="Ilustración 1">
+            <img src="PORTAFOLIO/6. GNrL/1.ilusteaciones/IMG_8702.PNG" alt="Ilustración 1">
+            <img src="PORTAFOLIO/6. GNrL/1.ilusteaciones/IMG_8703.PNG" alt="Ilustración 1">
+            <img src="PORTAFOLIO/6. GNrL/1.ilusteaciones/IMG_8704.PNG" alt="Ilustración 1">
+            <img src="PORTAFOLIO/6. GNrL/1.ilusteaciones/IMG_8707.PNG" alt="Ilustración 1">
+            <img src="PORTAFOLIO/6. GNrL/1.ilusteaciones/IMG_8709.PNG" alt="Ilustración 1">
+            <img src="PORTAFOLIO/6. GNrL/1.ilusteaciones/IMG_8710.PNG" alt="Ilustración 1">
+            <img src="PORTAFOLIO/6. GNrL/1.ilusteaciones/IMG_8711.PNG" alt="Ilustración 1">
+            <img src="PORTAFOLIO/6. GNrL/1.ilusteaciones/IMG_8712.PNG" alt="Ilustración 1">
+            <img src="PORTAFOLIO/6. GNrL/1.ilusteaciones/IMG_8713.PNG" alt="Ilustración 1">
+        </div>
+        </div>
+
+        <button class="arrow right" onclick="scrollCarouselIlustraciones(1)">&#10095;</button>
+    </div>
+
+    <script>
+        function scrollCarouselIlustraciones(direction) {
+        const container = document.getElementById('carousel-ilustraciones');
+        const scrollAmount = 300;
+        container.scrollBy({
+            left: direction * scrollAmount,
+            behavior: 'smooth'
+        });
+        }
+    </script>
+    </section>
+
+    <section class="figurines-section">
+    <h2 class="carousel-title">Producto</h2>
+
+    <div class="carousel-wrapper">
+        <button class="arrow left" onclick="scrollCarouselProducto(-1)">&#10094;</button>
+
+        <div class="carousel-container" id="carousel-producto">
+        <div class="carousel-track">
+            <img src="PORTAFOLIO/6. GNrL/2. Producto/IMG_3370.PNG" alt="Producto 1">
+            <img src="PORTAFOLIO/6. GNrL/2. Producto/IMG_3371.PNG" alt="Producto 2">
+            <img src="PORTAFOLIO/6. GNrL/2. Producto/IMG_3373.PNG" alt="Producto 3">
+            <img src="PORTAFOLIO/6. GNrL/2. Producto/IMG_3375.PNG" alt="Producto 4">
+            <img src="PORTAFOLIO/6. GNrL/2. Producto/IMG_3376.PNG" alt="Producto 5">
+            <img src="PORTAFOLIO/6. GNrL/2. Producto/IMG_3377.PNG" alt="Producto 6">
+
+        </div>
+        </div>
+
+        <button class="arrow right" onclick="scrollCarouselProducto(1)">&#10095;</button>
+    </div>
+
+    <script>
+        function scrollCarouselProducto(direction) {
+        const container = document.getElementById('carousel-producto');
+        const scrollAmount = 300;
+        container.scrollBy({
+            left: direction * scrollAmount,
+            behavior: 'smooth'
+        });
+        }
+    </script>
+    </section>
+
     </section>
 
 
